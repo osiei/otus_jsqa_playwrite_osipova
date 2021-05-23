@@ -1,0 +1,28 @@
+{
+  "name": "otus_jsqa_playwrite_osipova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.spec.js -timeout 50000 --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osiei/otus_jsqa_playwrite_osipova.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osiei/otus_jsqa_playwrite_osipova/issues"
+  },
+  "homepage": "https://github.com/osiei/otus_jsqa_playwrite_osipova#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/register": "^7.13.16",
+    "mocha": "^8.4.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.11.0"
+  }
+}
